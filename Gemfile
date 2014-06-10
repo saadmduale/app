@@ -24,6 +24,12 @@ gem 'jbuilder', '~> 2.0'
 # Add Simpleform
 gem 'simple_form'
 
+# Add user authentication using devise
+gem 'devise'
+
+# Add Facebook authentication via omniauth!
+gem 'omniauth-facebook'
+
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
